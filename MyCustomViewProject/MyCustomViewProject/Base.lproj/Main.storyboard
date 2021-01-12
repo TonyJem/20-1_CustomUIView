@@ -17,21 +17,19 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5q4-ln-bkF" customClass="MyCustomView" customModule="MyCustomViewProject" customModuleProvider="target">
-                                <rect key="frame" x="63" y="220" width="240" height="128"/>
+                                <rect key="frame" x="87" y="384" width="240" height="128"/>
                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="128" id="D5d-YM-sh5"/>
-                                    <constraint firstAttribute="width" constant="240" id="yuX-B6-WlR"/>
+                                    <constraint firstAttribute="height" constant="128" id="1IN-kw-PDq"/>
+                                    <constraint firstAttribute="width" constant="240" id="vmH-at-uAV"/>
                                 </constraints>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="5q4-ln-bkF" secondAttribute="bottom" constant="514" id="BDI-Dj-uav"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="5q4-ln-bkF" secondAttribute="trailing" constant="111" id="Nfs-PE-xJr"/>
-                            <constraint firstItem="5q4-ln-bkF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="63" id="OTt-cW-ZMd"/>
-                            <constraint firstItem="5q4-ln-bkF" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="176" id="PM4-DZ-Kyl"/>
+                            <constraint firstItem="5q4-ln-bkF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1ms-7j-5Fy"/>
+                            <constraint firstItem="5q4-ln-bkF" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="D4P-Bw-zFT"/>
                         </constraints>
                     </view>
                 </viewController>
