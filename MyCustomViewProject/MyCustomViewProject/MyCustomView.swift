@@ -1,6 +1,6 @@
 import UIKit
 
-class MyCustomView: UIView {
+@IBDesignable class MyCustomView: UIView {
     
     @IBOutlet weak var labelForView: UILabel!
     
