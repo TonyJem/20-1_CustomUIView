@@ -13,6 +13,7 @@
 		3A81B37225AE2ED7006501D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A81B37025AE2ED7006501D6 /* Main.storyboard */; };
 		3A81B37425AE2EDA006501D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A81B37325AE2EDA006501D6 /* Assets.xcassets */; };
 		3A81B37725AE2EDA006501D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A81B37525AE2EDA006501D6 /* LaunchScreen.storyboard */; };
+		3A81B38025AE3071006501D6 /* MyCustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A81B37F25AE3071006501D6 /* MyCustomView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		3A81B37325AE2EDA006501D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A81B37625AE2EDA006501D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A81B37825AE2EDA006501D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A81B37F25AE3071006501D6 /* MyCustomView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyCustomView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				3A81B36C25AE2ED7006501D6 /* SceneDelegate.swift */,
 				3A81B36E25AE2ED7006501D6 /* ViewController.swift */,
 				3A81B37025AE2ED7006501D6 /* Main.storyboard */,
+				3A81B37F25AE3071006501D6 /* MyCustomView.xib */,
 				3A81B37325AE2EDA006501D6 /* Assets.xcassets */,
 				3A81B37525AE2EDA006501D6 /* LaunchScreen.storyboard */,
 				3A81B37825AE2EDA006501D6 /* Info.plist */,
@@ -125,6 +128,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A81B37725AE2EDA006501D6 /* LaunchScreen.storyboard in Resources */,
+				3A81B38025AE3071006501D6 /* MyCustomView.xib in Resources */,
 				3A81B37425AE2EDA006501D6 /* Assets.xcassets in Resources */,
 				3A81B37225AE2ED7006501D6 /* Main.storyboard in Resources */,
 			);
