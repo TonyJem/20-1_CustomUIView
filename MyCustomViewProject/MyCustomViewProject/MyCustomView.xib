@@ -8,32 +8,36 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MyCustomView" customModule="MyCustomViewProject" customModuleProvider="target">
+            <connections>
+                <outlet property="labelForView" destination="boZ-w4-IPI" id="4bZ-3h-rq4"/>
+            </connections>
+        </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <view contentMode="scaleToFill" id="bGN-xQ-5kY" customClass="MyCustomView" customModule="MyCustomViewProject" customModuleProvider="target">
+        <view contentMode="scaleToFill" id="AmD-4T-50a">
             <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f4Z-di-RXT">
-                    <rect key="frame" x="70" y="49" width="100" height="30"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="boZ-w4-IPI">
+                    <rect key="frame" x="55" y="44" width="130" height="40"/>
                     <color key="backgroundColor" systemColor="systemGray6Color"/>
                     <constraints>
-                        <constraint firstAttribute="width" constant="100" id="Ugt-Oa-uKE"/>
-                        <constraint firstAttribute="height" constant="30" id="cpL-Kw-yFq"/>
+                        <constraint firstAttribute="width" constant="130" id="Iaq-nx-iGS"/>
+                        <constraint firstAttribute="height" constant="40" id="Xox-6H-NJo"/>
                     </constraints>
                     <fontDescription key="fontDescription" type="system" pointSize="23"/>
                     <color key="textColor" systemColor="systemPurpleColor"/>
                     <nil key="highlightedColor"/>
                 </label>
             </subviews>
-            <viewLayoutGuide key="safeArea" id="hCg-py-dwb"/>
+            <viewLayoutGuide key="safeArea" id="oWw-2y-Pzi"/>
             <color key="backgroundColor" systemColor="systemYellowColor"/>
             <constraints>
-                <constraint firstItem="f4Z-di-RXT" firstAttribute="centerY" secondItem="bGN-xQ-5kY" secondAttribute="centerY" id="YqL-R5-GdE"/>
-                <constraint firstItem="f4Z-di-RXT" firstAttribute="centerX" secondItem="bGN-xQ-5kY" secondAttribute="centerX" id="nSb-Dv-1Wa"/>
+                <constraint firstItem="boZ-w4-IPI" firstAttribute="centerX" secondItem="AmD-4T-50a" secondAttribute="centerX" id="Y2C-Ka-Tlr"/>
+                <constraint firstItem="boZ-w4-IPI" firstAttribute="centerY" secondItem="AmD-4T-50a" secondAttribute="centerY" id="gh6-dD-vXI"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-            <point key="canvasLocation" x="-152" y="1"/>
+            <point key="canvasLocation" x="190" y="64"/>
         </view>
     </objects>
     <resources>
