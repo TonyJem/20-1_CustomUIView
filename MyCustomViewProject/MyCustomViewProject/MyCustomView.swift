@@ -4,7 +4,7 @@ class MyCustomView: UIView {
     
     @IBOutlet weak var labelForView: UILabel!
     
-    @IBInspectable var labelText: String {
+    var labelText: String {
         get {
             return labelForView.text!
         }
